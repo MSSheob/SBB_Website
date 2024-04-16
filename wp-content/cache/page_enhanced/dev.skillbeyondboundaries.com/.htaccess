@@ -1,0 +1,32 @@
+<IfModule mod_headers.c>
+    <FilesMatch "\.html[_a-z]*$">
+        Header unset Link
+        Header add Link '</wp-content/cache/minify/5c692.js>; rel=preload; as=script'
+
+        Header add Link '</wp-content/cache/minify/bf502.js>; rel=preload; as=script'
+
+        Header add Link '</wp-content/cache/minify/71e8b.js>; rel=preload; as=script'
+
+        Header add Link '</wp-content/cache/minify/0fef6.js>; rel=preload; as=script'
+
+        Header add Link '</wp-content/cache/minify/47ddc.js>; rel=preload; as=script'
+
+        Header add Link '</wp-content/cache/minify/6de9b.js>; rel=preload; as=script'
+
+        Header add Link '</wp-content/cache/minify/0556a.css>; rel=preload; as=style'
+
+        Header add Link '</wp-content/cache/minify/b1994.css>; rel=preload; as=style'
+
+        Header add Link '</wp-content/cache/minify/7b7a9.css>; rel=preload; as=style'
+
+        Header add Link '</wp-content/cache/minify/ba704.css>; rel=preload; as=style'
+
+        Header add Link '</wp-content/cache/minify/3249d.css>; rel=preload; as=style'
+
+        Header add Link '</wp-content/cache/minify/5c243.css>; rel=preload; as=style'
+
+        Header add Link '</wp-content/cache/minify/adb88.css>; rel=preload; as=style'
+
+        Header add Link '</wp-content/cache/minify/93125.css>; rel=preload; as=style'
+    </FilesMatch>
+</IfModule>

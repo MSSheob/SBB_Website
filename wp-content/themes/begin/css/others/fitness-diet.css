@@ -1,0 +1,16 @@
+
+
+
+/* Diet Table */
+table.fit-Diet-table { margin: 0 auto;  width: 70%; }
+table.fit-Diet-table, table.fit-Diet-table th, table.fit-Diet-table td { border:0; }
+.fit-Diet-table tr { display: inline-table; margin-bottom: 2px; } 
+
+table.fit-Diet-table  tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th { background: #f2f2f2; }
+table.fit-Diet-table th, table.fit-Diet-table td { background:#fbfbfb; }
+
+table.fit-Diet-table th { width:25%; color:#aaaaaa; text-transform:none; }
+table.fit-Diet-table th strong { font-size:30px; }
+
+.fit-Diet-table td { margin-left: 2px !important; text-align: left; position:relative; color:#161616; padding:20px 30px; vertical-align:middle; line-height:22px; }
+.fit-Diet-table td:before { background: #fff; content: ""; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 2px; }

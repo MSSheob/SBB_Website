@@ -1,0 +1,60 @@
+
+
+/*----*****---- << Hotel Search >> ----*****----*/
+.hotel-search-container { margin:20px 0px 0px; float:left; padding:0px; border:1px solid; width:100%;  }
+.hotel-search-container h4 { text-align:center; width:100%; padding:11px 20px 10px;  margin:0px; }
+.hotel-search-container form { padding:34px 40px 18px;  float:left; clear:both; width:100%; text-align:center; }
+.hotel-search-container form label { font-weight:bold; font-size:12px; text-transform:uppercase; margin-bottom:5px; display:inline-block; text-align:left; width:100%; }
+.hotel-search-container form input[type="submit"] { float:none; display:inline-block; clear:both; border-top:3px solid; font-weight:normal; padding:11px 40px; border-radius:0px; margin:40px 0px 0px; }
+
+.hotel-search-container form input[type="date"] { padding:12px; }
+.hotel-search-container select { height:44px; padding-top:12px; padding-bottom:11px; }
+.hotel-search-container .selection-box:after { top:0px; height:44px; border:0px; }
+/* IE9 */
+.ie9 .hotel-search-container .selection-box:after { background:none; border:none; }
+
+
+/* Default */
+.hotel-search-container form input[type="submit"] { background:#fff; }
+.hotel-search-container { background:rgba(0, 0, 0, 0.02); }
+.hotel-search-container h4 { background:rgba(0, 0, 0, 0.05); }
+
+.hotel-search-container { border-color:rgba(0, 0, 0, 0.05); }
+.hotel-search-container .selection-box:before { border-top-color:#ffffff; }
+
+.hotel-search-container form label, .hotel-search-container form input[type="submit"] { color:#222222; }
+.hotel-search-container form input[type="submit"]:hover { color:#ffffff; }
+
+
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+		
+		.hotel-search-container form .vc_col-sm-2,
+		.hotel-search-container form .vc_col-sm-4 { width: 50%; }
+	
+	}
+	
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+	
+		.hotel-search-container form .vc_col-sm-2,
+		.hotel-search-container form .vc_col-sm-4 { width: 50%; }
+	
+	}
+	
+	
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 319px) {						
+		
+		/** Hotel **/
+		.hotel-search-container form { padding: 34px 10px 18px; }
+		
+	}
+
+
+/*----*****---- << Skin Colors >> ----*****----*/	
+	
+.hotel-search-container form input[type="submit"]:hover, .hotel-search-container .selection-box:after { background:#da0000; }
+
+.hotel-search-container form input[type="submit"] { border-color:#da0000; }

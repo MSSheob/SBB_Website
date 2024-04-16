@@ -1,0 +1,93 @@
+
+/* Table of Content
+==================================================
+	1.0 - Transition
+	1.1 - Model
+	1.2 - Default Colors
+	1.3 - Responsive
+	1.4 - Skin Colors*/
+
+	/*--------------------------------------------------------------
+	1.0 - Transition
+	--------------------------------------------------------------*/
+
+.dt-sc-model figcaption, .dt-sc-model figure, .dt-sc-model figure:before { -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; -ms-transition:all 0.3s linear; transition:all 0.3s linear; }
+
+
+
+	/*--------------------------------------------------------------
+	1.1 - Model
+	--------------------------------------------------------------*/
+
+	.dt-sc-model-sorting a { padding: 0 15px; }
+	.dt-sc-model-sorting a::before { right: -8px; }
+
+
+
+	/*--------------------------------------------------------------
+	1.2 - Default Colors
+	--------------------------------------------------------------*/
+	.dt-sc-model figcaption h3, .dt-sc-model figcaption h4 { color:#ffffff; }
+	.dt-sc-model figcaption { background:rgba(0, 0, 0, 0.7); }
+	.dt-sc-model-sorting a { color:#000000; }
+	.dt-sc-model-sorting a:before { background:#000000; }
+	
+	
+	
+	/*--------------------------------------------------------------
+	1.3 - Responsive
+	--------------------------------------------------------------*/
+	
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+		
+		/** Model Custom Post **/
+		.dt-sc-model figcaption h3 { font-size:12px; }
+		
+	}
+	
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+		
+		/** Model Custmo Post **/
+		.dt-sc-model figcaption h3 { font-size:12px; }
+		.dt-sc-model figcaption h4 { font-size:9px; }
+		.dt-sc-model-details li span { width:40%; }
+	
+	}
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+ 		
+ 		/** Model Custom Post **/
+		.model-nav-container { margin-top:-70px; }
+		.model-form { width:100%; }
+		
+	}
+	
+	
+	/* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+        .model-nav-container { margin-top:-50px; }
+		.dt-sc-model-details li { width:100%; }
+		.dt-sc-model-details li span { width:36%; }
+		.model-nav-container .model-next-link a, .model-nav-container .model-prev-link a { padding:6px 14px; }
+	}
+	
+
+	/*--------------------------------------------------------------
+	1.4 - Skin Colors
+	--------------------------------------------------------------*/
+	.model-nav-container .model-next-link a:hover, .model-nav-container .model-prev-link a:hover { background: #da0000; }
+	
+	.model-nav-container .model-next-link a:hover, .model-nav-container .model-prev-link a:hover { border-color: #da0000; }
+	
+	.dt-sc-model-sorting a:hover, .dt-sc-model-sorting a.active-sort, .dt-sc-model figcaption h3 a:hover, .dt-sc-model-sorting a:hover, .dt-sc-model-sorting a.active-sort, .dt-sc-model-details li span, .dt-sc-model-single-slider-wrapper .bx-controls a:hover:before { color: #da0000; }
+	
+	/* Dark */
+	.dt-sc-model-sorting a:before { background: #c50000; }
+	.dt-sc-model-sorting a { color: #c50000; }
+	

@@ -1,0 +1,89 @@
+
+
+/*----*****---- << Domain Search >> ----*****----*/
+
+.domain-search { -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; -ms-transition:all 0.3s linear; transition:all 0.3s linear; }
+
+
+.domain-search-wrapper { margin: 0; padding: 0; }
+.domain-search-wrapper, .domain-search-container, .domain-search-container .domain-search-form { clear: both; float: left; width: 100%; }
+.domain-search-container .domain-search-form { height: 80px; line-height: 80px; border-radius: 5px; }
+
+.domain-search-form label, .domain-search-form input[type="search"], .domain-search-form input[type="text"], .domain-search-form .domain-tld-list, .domain-search-form input[type="submit"] { float:left; letter-spacing:0.5px; font-weight:300;  }
+.domain-search-form label { font-size:18px; width:15%; text-align:center; border-radius:5px 0px 0px 5px; padding:0px 10px; }
+.domain-search-form input[type="search"], .domain-search-form input[type="text"] { font-size:18px; background:none; border:none; width:59%; padding:29px 30px 27px; -webkit-appearance:none; }
+.domain-search-form p { margin:0px; }
+
+.domain-search-form input[type="search"]::-webkit-input-placeholder, .domain-search-form input[type="text"]::-webkit-input-placeholder { color:rgba(255, 255, 255, 0.6); }
+
+.domain-tld-list { width:12%; text-align:center; padding:0px 10px; height:80px; }
+.domain-tld-list ul { margin:0px; padding:0px; }
+.domain-tld-list ul li { display:inline; font-size:18px; padding:0px; margin:0px; }
+.domain-tld-list ul li a { line-height:80px; display:inline-block; width:100%; }
+.domain-tld-list ul li a span { margin:0px 0px 0px 5px; }
+.domain-search { position:relative; width:14%; float:left; height:80px; padding:0px 10px 0px 50px; border-radius:0px 5px 5px 0px; float:right;  }
+.domain-search:before { content:"\e618"; position:absolute; font-size:24px; left:30px; font-family:Pe-icon-7-stroke; top:1px; }
+.domain-search-form .domain-search input[type="submit"] { background:none; margin:0px; font-size:18px; text-transform:none; padding:32px 15px 26px; }
+
+/* Default */
+.domain-search-form label, .domain-tld-list { background:rgba(0, 0, 0, 0.1); }
+.domain-search:hover { background:rgba(0, 0, 0, 0.3); }
+
+.domain-search-form label, .domain-search-form .domain-tld-list li a, .domain-search-form input[type="search"], .domain-search-form input[type="text"], .domain-search:before { color:#ffffff; }
+
+.domain-search { background:rgba(0, 0, 0, 0.2); }
+	
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+		
+		.domain-search { padding-left:33px; }
+		.domain-search::before { left:20px; }
+	
+	}
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+		
+		.domain-search-form input[type="search"], .domain-search-form input[type="text"] { width:51%; }
+		.domain-search { width:22%; }
+	
+	}
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+		
+		.domain-search-form input[type="search"], .domain-search-form input[type="text"] { width:55%; }
+		.domain-tld-list { width:15.6%; }
+		.domain-search:before { left:20px; }
+		.domain-search-form .domain-search input[type="submit"] { display:none; }
+	
+	}
+	
+	/* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+
+		/** Hosting **/
+		.domain-search-form label { font-size:16px; width:20%; }
+		.domain-search-form input[type="search"], .domain-search-form input[type="text"] { width:51%; font-size:16px; }
+		.domain-tld-list ul li { font-size:15px; }
+		.domain-tld-list { width:28.6%; }
+		.domain-search { width:100%; }
+		.hosting-contact-info-container .dt-sc-contact-info.type7 span { left:10px; }
+		.domain-search-container { height:319px; }
+		.domain-search-form label, .domain-search-form input[type="search"], .domain-search-form input[type="text"], .domain-tld-list { width:100%; }
+		.domain-search:before { right: 20px; text-align: center; }
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 319px) {						
+		
+		/** Hosting **/
+		.domain-search-form input[type="search"], .domain-search-form input[type="text"] { padding-left:10px; font-size:14px; padding-right:10px; }
+		.domain-search-container { height:315px; }
+	}
+	
+	
+	
+	.domain-search-container .domain-search-form { background:#da0000; }

@@ -1,0 +1,50 @@
+
+/* Table of Content
+==================================================
+	1.0  -  Default Color
+	2.0  -  Skin Color
+	3.0  -  Responsive*/
+	
+	/*--------------------------------------------------------------
+	1.0 - Default Color
+	--------------------------------------------------------------*/
+	
+	/*----*****---- << University >> ----*****----*/
+
+	/* Default */
+	.dt-sc-course .dt-sc-course-overlay { background: rgba(218, 0, 0, 0.8); }
+	
+	/* Light */
+	.dt-sc-course .dt-sc-course-overlay a { background: #ff2828; }
+	.dt-sc-faculty .dt-sc-faculty-thumb-overlay { background: rgba(255, 40, 40, 0.9); }
+	
+	
+	/*--------------------------------------------------------------
+	2.0 - Skin Color
+	--------------------------------------------------------------*/
+	.dt-sc-faculty-sorting a:hover, .dt-sc-faculty-sorting a.active-sort, .dt-sc-course .dt-sc-course-details .dt-sc-course-meta p span, .dt-sc-course.no-course-thumb .dt-sc-course-details h5 a { color: #ff2828; }
+
+
+	/*--------------------------------------------------------------
+	3.0 - Responsive
+	--------------------------------------------------------------*/
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+ 
+ 		/*----*****---- << University >> ----*****----*/
+		.dt-sc-faculty .dt-sc-faculty-details h5 { font-size:16px; }
+
+	}
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+		
+		/*----*****---- << University Custom Post >> ----*****----*/
+		.dt-sc-faculty .dt-sc-faculty-details h5 { font-size:15px; }
+		
+		/*----*****---- << University >> ----*****----*/
+		.dt-sc-course .dt-sc-course-overlay a.dt-sc-button { font-size: 11px; height: 36px; padding: 11px 15px; text-align: center; width: 100%; box-sizing: border-box; }
+		.dt-sc-course .dt-sc-course-details { width: 100%; }
+		.dt-sc-course .dt-sc-course-details h5 { font-size: 13px; }
+		
+	}

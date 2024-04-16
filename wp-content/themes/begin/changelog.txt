@@ -1,0 +1,60 @@
+*** Begin WordPress Theme Changelog ***
+
+2019.06.07 – version 1.7 
+ * Gutenberg Latest update compatible
+ * Added Portfolio video option
+ * Added link for image caption module
+ * Fixed  - Coming Soon page issue
+ * Fixed  - Menu image issue
+ * Fixed - Product single page comment box
+ * Fixed - shortcodes issues
+ * Updated Codestar framework
+ * Updated wpml xml file
+ * Updated latest version of all third party plugins
+ * Some design tweaks
+
+2019.02.05 - version 1.6
+
+ * Gutenberg compatible
+ * Latest WordPress version 5.0.3 compatible
+ * Updated latest version of all third party plugins
+ * Some design tweaks
+
+2018.11.10 - version 1.5
+ * Gutenberg plugin compatible
+ * Latest wordpress version 4.9.8 compatible
+ * Updated latest version of all third party plugins
+ * Updated documentation
+
+2018.07.31 - version 1.4
+ * GDPR Compliant update in comment form, mailchimp form etc.
+ * Packed with - Layer Slider 6.7.6
+ * Packed with - Revolution Slider 5.4.8
+ * Packed with - WPBakery Page Builder 5.5.2
+ * Packed with - Ultimate Addons for Visual Composer 3.16.24
+ * Packed with - Envato Market 2.0.0
+ * Fix - Option for change the site title color
+ * Fix - Woocommerce outdated files
+ * Fix - Nav Menu Role Plugin compatible
+ * Fix - Woocommerce custom sidebar issue
+ * Fix - Add target attribute for social media
+ * Fix - Bulk plugins install issue
+ * Fix - Unyson Page Builder Conflict
+ * Fix - Twitter feeds links issue
+ * Fix - Iphone sidebar issue
+ * Fix - Buddypress issue
+ * Fix - Youtube and Vimeo video issue in https
+ * Updated designthemes core features plugin
+ * Updated language files
+
+2017.09.21 - version 1.3
+ * Bug Fixes
+
+2017.09.16 - version 1.2
+ * Dummy data updated with latest home pages
+
+2017.09.11 - version 1.1
+ * Updated dummy data
+
+2017.09.08 - version 1.0
+ * First release!

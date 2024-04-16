@@ -1,0 +1,77 @@
+
+/* Table of Content
+==================================================
+	1.0 - Responsive
+	2.0 - Skin Colors*/
+	
+	/*--------------------------------------------------------------
+	1.0 - Responsive
+	--------------------------------------------------------------*/
+	
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+		
+		/** Doctors Custom Post **/
+		.dt-sc-doctors-sorting { text-align:center; }
+		.dt-sc-doctors-sorting a { display:inline-block; float:none; margin-bottom:-1px; }
+	
+	}
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+ 		
+ 		/** Doctor Custom Post **/
+		.dt-sc-doctors { width:88%; }
+		.dt-sc-doctors .dt-sc-doctors-thumb, .dt-sc-doctors .dt-sc-doctors-details { width:100%; }
+		.dt-sc-doctors-sorting { text-align:center; }
+		.dt-sc-doctors-sorting a { float:none; display:inline-block; margin-bottom:-1px; }
+		
+		.dt-sc-doctors-single-meta li span { text-transform:capitalize; }
+		.dt-sc-doctors .dt-sc-doctors-thumb img { width:100%; }
+		
+	}
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+ 		
+		/** Medical Custom Post **/
+		.dt-sc-doctors .dt-sc-doctors-thumb, .dt-sc-doctors .dt-sc-doctors-details { width:100%; }
+		.dt-sc-doctors-sorting { text-align:center; }
+		.dt-sc-doctors-sorting a { float:none; display:inline-block; margin-bottom:-1px; }
+		.dt-sc-doctors { width:70%; margin-left: 13%; }
+		
+		.vc_custom_1450511733341 { background-color:#f5f5f5; margin:0; }
+		.dt-sc-doctors-single-meta li { font-size:12px; }
+		.dt-sc-doctors-single-meta li span { width:46%; text-transform:capitalize; }
+		.dt-sc-doctors-single-meta li p { width:50%; }
+		
+		.rs_dotted-border { border: 1px dashed rgba(0, 0, 0, 0.3) !important; padding: 15px !important; }
+		.rs_dotted-border .vc_column-inner { border:none !important; }
+		
+	}
+	
+	
+	/* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+
+	   /* Medical Custom Post */
+	   .dt-sc-doctors { width:100%; margin-left:0; }
+	   .dt-sc-doctors .dt-sc-doctors-details ul.dt-sc-team-social { text-align:center; }
+	}
+
+
+
+	/*--------------------------------------------------------------
+	2.0 - Skin Colors
+	--------------------------------------------------------------*/
+	.dt-sc-doctors-sorting a.active-sort, .dt-sc-doctors .dt-sc-doctors-details ul.dt-sc-sociable li a { background: #da0000; }
+	.dt-sc-doctors .dt-sc-doctors-thumb-overlay { background: rgba(218, 0, 0, 0.9); }
+	
+	.dt-sc-doctors-sorting a.active-sort { border-color: #da0000; }   
+	
+	.dt-sc-doctors-sorting a:hover, .dt-sc-doctors .dt-sc-doctors-details h5 a, .dt-sc-doctors .dt-sc-doctors-details ul.dt-sc-doctors-meta li span, .dt-sc-doctors .dt-sc-doctors-details ul.dt-sc-doctors-meta li a:hover, .dt-sc-doctors-single-meta li span { color: #da0000; }
+	
+	/* Dark */
+	.dt-sc-doctors .dt-sc-doctors-details ul.dt-sc-sociable li a:hover { background: #c50000; }

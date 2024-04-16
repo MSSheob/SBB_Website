@@ -1,0 +1,142 @@
+
+/* Table of Content
+==================================================
+	1.0  -  DT Responsive
+	2.0  -  Skin Colors*/
+	
+	/*--------------------------------------------------------------
+	1.0 - DT Responsive
+	--------------------------------------------------------------*/
+	
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+	
+		.dt-sc-yoga-video-single .dt-sc-team.rounded .dt-sc-team-thumb { width:140px; }
+		.dt-sc-yoga-video-single .dt-sc-team.rounded .dt-sc-team-thumb img { width:133px; }
+		
+		.yoga-program-sorting .selection-box { margin-right:10px; }
+		
+		.dt-sc-yoga-video-container .dt-sc-yoga-premium-video-overlay, .dt-sc-yoga-single-video-container .dt-sc-yoga-premium-video-overlay { font-size:40px; }
+		.dt-sc-yoga-premium-video-overlay-message .dt-sc-hr-invisible-small { margin-top:30px; }
+		
+		.dt-sc-video-manager-wrapper .vc_col-md-12.wpb_column	{ padding-bottom: 0; }
+		.dt-sc-video-wrapper { width: 100%; }
+	}
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+		
+		/** Yoga Custom Post **/
+		.dt-sc-yoga-video-single .dt-sc-team.hide-social-show-on-hover.rounded { padding-left:10px; padding-right:10px; }
+		.dt-sc-yoga-video-single .dt-sc-team.rounded .dt-sc-team-thumb img { width:93px; }
+		.dt-sc-yoga-video-single .dt-sc-team.rounded .dt-sc-team-thumb { width:138px; }
+		.dt-sc-yoga-video-single .dt-sc-team .dt-sc-team-details { padding-top:10px; }
+		
+		.yoga-single-meta li { font-size:14px; }
+		.yoga-program-sorting .selection-box { margin-bottom:10px; width:21%; }
+		
+		.dt-sc-yoga-video-container .dt-sc-yoga-premium-video-overlay .dt-sc-yoga-premium-video-overlay-message, .dt-sc-yoga-single-video-container .dt-sc-yoga-premium-video-overlay .dt-sc-yoga-premium-video-overlay-message { width:90%; }
+		.dt-sc-yoga-video-container .dt-sc-yoga-premium-video-overlay, .dt-sc-yoga-single-video-container .dt-sc-yoga-premium-video-overlay { font-size:34px; }
+		.dt-sc-yoga-premium-video-overlay-message .dt-sc-hr-invisible-small { margin-top:20px; }
+		
+		.dt-sc-video-manager-wrapper .rs_col-sm-12.wpb_column	{ padding-bottom: 0; }
+		.dt-sc-video-wrapper { width: 100%; }
+		.yoga-video-sorting .selection-box { width: 30%; }
+		.yoga-video-sorting input[type="submit"] { margin-top: 20px; }
+		.dt-sc-yoga-detail-container { float: left; margin: 0 0 20px; width: 100%; }
+	
+	}
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+ 		
+		/** Yoga Custom Post **/
+		.dt-sc-yoga-teacher-single .dt-sc-yoga-teacher-wrapper, .dt-sc-yoga-teacher-single .dt-sc-yoga-teacher-single-details { width:100%; }
+		.dt-sc-yoga-teacher-single .dt-sc-yoga-teacher-single-details { padding-left:0; margin-top:30px; }
+		
+		.yoga-program-sorting .selection-box { width:44%; margin-bottom:10px; }
+		
+		/** Yoga **/
+		.dt-sc-yoga-video-container .dt-sc-yoga-premium-video-overlay .dt-sc-yoga-premium-video-overlay-message, .dt-sc-yoga-single-video-container .dt-sc-yoga-premium-video-overlay .dt-sc-yoga-premium-video-overlay-message { width:90%; }
+		.dt-sc-yoga-video-container .dt-sc-yoga-premium-video-overlay, .dt-sc-yoga-single-video-container .dt-sc-yoga-premium-video-overlay { font-size:30px; }
+		.dt-sc-yoga-premium-video-overlay-message .dt-sc-hr-invisible-small { margin-top:0px; }
+		
+		.dt-sc-video-wrapper { width: 100%; }		
+		.dt-sc-video-wrapper .video-overlay-inner { height: 70px; }
+		.dt-sc-video-wrapper .video-overlay-inner h2, .dt-sc-video-wrapper .video-overlay-inner p { display: none; }		
+		
+		.dt-sc-video-item { display: block; float: none; margin-left: auto; margin-right: auto; padding: 0 75px; width: 75%; }
+		.dt-sc-vitem-thumb { max-width: 100%; position: inherit; left: 0; width: 100%; }
+		.dt-sc-vitem-thumb img { width: 100%; }
+		.dt-sc-vitem-detail { padding-left: 60px; }
+		.dt-sc-vitem-detail h2:before { left: -35px; }
+		
+		.yoga-video-sorting .selection-box { margin-bottom: 10px; width: 100%; }
+	
+	}
+	
+	
+	/* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+	   
+		 /** Yoga Custom Post **/
+		.yoga-program-sorting .selection-box { width:95%; margin-right:0; }
+	
+		.dt-sc-yoga-video-container .dt-sc-yoga-premium-video-overlay .dt-sc-yoga-premium-video-overlay-message, .dt-sc-yoga-single-video-container .dt-sc-yoga-premium-video-overlay .dt-sc-yoga-premium-video-overlay-message { width:97%; }
+		.dt-sc-yoga-video-container .dt-sc-yoga-premium-video-overlay, .dt-sc-yoga-single-video-container .dt-sc-yoga-premium-video-overlay { font-size:23px; }
+		
+		.dt-sc-video-item { padding: 0 30px; }
+		
+		.dt-sc-vitem-detail { padding-left: 15px; text-align: center; }
+		.dt-sc-vitem-detail h2:before { display: block; margin: 0 0 15px; position: inherit; left: 0; right: 0; }
+		
+		.dt-sc-newsletter-section.yoga-expert-form .dt-sc-subscribe-frm input[type="email"] { margin-bottom: 10px; width: 100%; }
+		
+		.dt-sc-yoga-video .dt-sc-yoga-video-overlay { float: left; position: inherit; padding: 5px 10px; }
+		.dt-sc-yoga-video .dt-sc-yoga-video-overlay h6 { line-height: normal; padding: 5px 0; width: 80%; }
+		.dt-sc-yoga-video .dt-sc-yoga-video-meta { padding: 13px 0; }
+		.dt-sc-yoga-video .dt-sc-yoga-video-meta p { padding: 0 10px; }	
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 319px) {						
+		
+		/** Yoga Custom Post **/
+		.dt-sc-yoga-teacher-single .dt-sc-yoga-teacher-wrapper .dt-sc-yoga-teacher-details h5, .dt-sc-yoga-teacher-single-details h5 { font-size:16px; }
+		.dt-sc-team.hide-social-show-on-hover.rounded { padding-left:10px; padding-right:10px; }
+		
+		/** Yoga video **/
+		.dt-sc-yoga-video-container .dt-sc-yoga-premium-video-overlay .dt-sc-yoga-premium-video-overlay-message, .dt-sc-yoga-single-video-container .dt-sc-yoga-premium-video-overlay .dt-sc-yoga-premium-video-overlay-message { width:100%; }
+		.dt-sc-yoga-video-container .dt-sc-yoga-premium-video-overlay, .dt-sc-yoga-single-video-container .dt-sc-yoga-premium-video-overlay { font-size:17px; }
+		.dt-sc-yoga-premium-video-overlay .wpb_column { margin-bottom:0; }
+		
+		.dt-sc-video-item { padding: 0 15px; }
+	}
+	
+
+
+	/*--------------------------------------------------------------
+	2.0 - Skin Colors
+	--------------------------------------------------------------*/
+	.dt-sc-yoga-video .dt-sc-yoga-video-meta, .dt-sc-yoga-classes:hover .dt-sc-yoga-classes-details, .dt-sc-yoga-classes-sorting a, .dt-sc-yoga-pose:hover .dt-sc-yoga-pose-details, .dt-sc-yoga-teacher:hover .dt-sc-yoga-teacher-details { background: #da0000; }
+	
+	.dt-sc-yoga-classes .dt-sc-yoga-classes-image-wrapper:before, .dt-sc-yoga-course .dt-sc-yoga-course-thumb-overlay, .dt-sc-yoga-program .dt-sc-yoga-program-thumb-overlay { background: rgba(218, 0, 0, 0.8); }
+		  
+	.dt-sc-yoga-pose .dt-sc-yoga-pose-thumb:before, .dt-sc-yoga-teacher .dt-sc-yoga-teacher-thumb:before { background: rgba(218, 0, 0, 0.9); }
+	
+	.dt-sc-yoga-people-single .dt-sc-single-line-dashed-separator, .dt-sc-yoga-program-single:hover, .dt-sc-yoga-pose-single .entry-thumb:hover, .dt-sc-yoga-style-single .entry-thumb:hover { border-color: #da0000; }
+	
+	.dt-sc-yoga-classes .dt-sc-yoga-classes-image-overlay a, .dt-sc-yoga-pose .dt-sc-yoga-pose-overlay a, .dt-sc-yoga-teacher .dt-sc-yoga-teacher-overlay a, .dt-sc-yoga-courses-sorting a:hover, .dt-sc-yoga-course .dt-sc-yoga-course-details h5 a:hover, .dt-sc-yoga-course .dt-sc-yoga-course-details h6 a:hover, .dt-sc-yoga-course .dt-sc-yoga-course-details .price, .dt-sc-yoga-course .dt-sc-yoga-course-thumb-overlay a, .dt-sc-yoga-program .dt-sc-yoga-program-details h5 a:hover, .dt-sc-yoga-program .dt-sc-yoga-program-details h6 a:hover, .dt-sc-yoga-program .dt-sc-yoga-program-thumb-overlay a, .dt-sc-yoga-people-info h4 { color: #da0000; }
+	
+	/* Light */
+	.yoga-video-sorting input[type="submit"], .dt-sc-yoga-classes .dt-sc-yoga-classes-image-overlay a:hover, .dt-sc-yoga-courses-sorting a.active-sort, .dt-sc-yoga-courses-sorting a:before, .dt-sc-yoga-course .dt-sc-yoga-course-thumb-overlay a:hover, .dt-sc-yoga-pose .dt-sc-yoga-pose-overlay a:hover, .dt-sc-yoga-teacher .dt-sc-yoga-teacher-overlay a:hover, .dt-sc-yoga-program .dt-sc-yoga-program-thumb-overlay a:hover { background: #ff2828; }
+	
+	.dt-sc-yoga-video .dt-sc-yoga-video-overlay p a { border-color: #ff2828; }
+	
+	.dt-sc-yoga-video .dt-sc-yoga-video-overlay p a, .dt-sc-yoga-video .dt-sc-yoga-video-overlay h6 a:hover, .dt-sc-yoga-courses-sorting a, .dt-sc-yoga-course .dt-sc-yoga-course-meta p, .dt-sc-yoga-course .dt-sc-yoga-course-details h6 a, .dt-sc-yoga-program .dt-sc-yoga-program-meta p, .dt-sc-yoga-program .dt-sc-yoga-program-details h6 a { color: #ff2828; }
+	
+	/* Dark */
+	.dt-sc-yoga-classes-sorting a:hover, .dt-sc-yoga-classes-sorting a.active-sort { background: #c50000; }
+	.yoga-single-meta li span { color: #c50000; }

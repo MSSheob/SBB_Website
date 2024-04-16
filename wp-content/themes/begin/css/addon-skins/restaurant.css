@@ -1,0 +1,206 @@
+
+
+/* Table of Content
+==================================================
+	1.0 - Default Color
+	2.0 - DT Responsive
+	3.0 - Skin Colors*/
+
+	/*--------------------------------------------------------------
+	1.0 - Default Color
+	--------------------------------------------------------------*/
+	.dt-sc-menu .image-overlay, .dt-sc-menu .image-overlay h6 a, .dt-sc-menu .menu-categories a { color:#ffffff; }
+	
+	.dt-sc-menu .image-overlay-wrapper:before { background:rgba(0, 0, 0, 0.8);  }
+	
+	.dt-sc-menu-sorting, .dt-sc-menu-sorting:after, .dt-sc-menu-sorting:before { border-color:rgba(0, 0, 0, 0.08); }
+	.dt-sc-menu .image-overlay-wrapper:after { border-left-color:#ffffff; }
+
+	/*----*****---- << Single Page >> ----*****----*/
+	.single-dt_chefs #primary { padding-bottom:0; }
+
+
+	/*--------------------------------------------------------------
+	2.0 - DT Responsive
+	--------------------------------------------------------------*/
+	
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+		
+		.dt-sc-menu-sorting a { margin-left:10px; margin-right:10px; }
+		.dt-sc-menu-sorting img { width:70%; }
+		
+		.dt-sc-menu.dt-sc-one-half { width:48.7%; }
+		.dt-sc-menu .image-overlay-wrapper { padding-left:73px; width:75%; }
+		.dt-sc-menu .image-overlay p { display:none; }
+		.dt-sc-menu .image-overlay h6 { font-size:12px; margin-bottom:5px; }
+		.dt-sc-menu .menu-categories a { font-size:11px; }
+		
+		.dt-sc-chef .dt-sc-chef-details h6, .dt-sc-chef .dt-sc-chef-details .dt-sc-chef-category { display:none; }
+		
+		.dt-sc-menu-sorting.type2 a { max-width:120px; }
+		.dt-sc-menu-sorting.type2 img { margin:0 auto; width:50%; }
+		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-details { padding: 60px 20px 0; }		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-details p, .dt-sc-restaurant-events-list .dt-sc-restaurant-event-details h6 { font-size: 13px; }
+		
+	}
+	
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+		
+		/** Restaurant Custom Post **/
+		.dt-sc-menu-sorting a { font-size:13px; }
+		.dt-sc-menu-sorting a span { margin-top:5px; }
+		.dt-sc-menu-sorting img { width:55%; }
+		
+		.dt-sc-one-half.dt-sc-menu { width:48.3%; }
+		.dt-sc-menu-sorting a { margin-left:7px; margin-right:7px; font-size: 13px; max-width: 137px; }
+		
+		.dt-sc-menu .image-overlay-wrapper { padding-left:68px; width:75%; }
+		.dt-sc-menu .image-overlay h6 { font-size:12px; margin-bottom:5px; }
+		.dt-sc-menu .image-overlay p, .dt-sc-menu .menu-categories { display:none; }
+		
+		.dt-sc-chef .dt-sc-chef-details h6, .dt-sc-chef .dt-sc-chef-details .dt-sc-chef-category { display:none; }
+		.dt-sc-chef .dt-sc-chef-details { padding:20px; }
+		.dt-sc-chef .dt-sc-chef-details .dt-sc-button { font-size: 13px; margin-top:4px; }
+		.dt-sc-chef .dt-sc-chef-details h5 { font-size:14px; }
+		
+		.dt-sc-chef-single-details h3 { font-size:17px; }
+		.dt-sc-chef-single-details p.chef-role { font-size:18px; }
+		
+		.dt-sc-chef-single-image-overlay .dt-sc-sociable { margin-top:0; }
+		
+		.dt-sc-menu.type2 { padding-left:120px; }
+		.dt-sc-menu.type2 figure { width:100px; }
+		.dt-sc-menu .dt-sc-menu-details h6 { font-size:12px; margin-bottom:10px; }
+		.dt-sc-menu .dt-sc-menu-details .dt-sc-menu-price { font-size:12px; }
+		.dt-sc-menu .dt-sc-menu-details p { font-size:13px; }
+		
+		.dt-sc-menu-sorting.type2 a { max-width:120px; }
+		.dt-sc-menu-sorting.type2 img { margin:0 auto; width:50%; }
+		
+		.restaurant-booking-form { padding: 0 50px; }
+		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-details, .dt-sc-restaurant-events-list:after { width: 30%; }
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-image { width: 70%; }
+		.dt-sc-restaurant-events-list:before { left: calc(30% - 15px); }
+		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-details { padding: 25px 20px 0; }
+		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-details p,
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-details h6 { font-size: 12px; }
+		
+		.restaurant-contact-bg:before { content: none; }
+		.restaurant-contact-bg > .vc_column-inner { padding-right: 0 !important; }
+		
+		.restaurant-contact-form { float: none; display: block; max-width: 100%; margin: 0 auto; width: 80%; }
+	
+	}
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+ 		
+ 		/** Restaurant **/
+		.dt-sc-menu .image-overlay p, .dt-sc-menu .menu-categories { display:none; }
+		.dt-sc-menu .image-overlay-wrapper { width:90%; }
+		
+		.dt-sc-menu-sorting { margin-bottom:60px; }
+		.dt-sc-menu-sorting > a { font-size: 13px; line-height: normal; max-width: 105px; margin-bottom:20px; }
+		.dt-sc-menu-sorting img { width: 53%; }
+		.dt-sc-menu .image-overlay h6 { margin-bottom:5px; }
+		
+		.dt-sc-chef { text-align:center; }
+		.dt-sc-chef .dt-sc-chef-thumb img { margin: 0 auto; }
+		.dt-sc-chef .dt-sc-chef-thumb, .dt-sc-chef .dt-sc-chef-details { width:100%; }
+		.dt-sc-chef .dt-sc-chef-details .dt-sc-button, .dt-sc-chef .dt-sc-chef-details .dt-sc-chef-category { float:none; }
+		
+		.dt-sc-chef-single-image { margin-bottom:20px; }
+		.dt-sc-chef-single-image, .dt-sc-chef-single-details { width:100%; padding-left:0; }
+		
+		.dt-sc-menu-sorting.type2 a { max-width:70px; }
+		.dt-sc-menu-sorting.type2 img { margin:0 auto; width:70%; }
+		
+		.dt-sc-chef .dt-sc-chef-thumb img { width: 100%; }
+		.dt-sc-menu-sorting.type2 a { margin-bottom: 20px; }
+		
+		.dt-sc-restaurant-events-list:before { content: none; }				
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-image:after { bottom: calc(100% - 22px); left: 0; right: 0; top: auto; width: 0; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); }		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-details:after { content: ""; border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 15px solid #fff; height: 0; margin: auto; position: absolute; bottom: 0; left: 0; right: 0; width: 0; }		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-details,
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-image { width: 100%; }		
+		.dt-sc-restaurant-events-list:after { width: calc(100% - 22px); }		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-details { padding: 50px 20px; }		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-image { border-left: none; border-top: 15px solid #ffffff; z-index: 1; }
+	
+	}
+	
+	
+	/* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+		
+	   /** Restaurnat Custom css **/
+	   .dt-sc-menu .image-overlay-wrapper { width:95%; padding-left:65px; }
+	   .dt-sc-menu .image-overlay h6 { font-size:12px; }
+	   
+	   .dt-sc-chef-single-details h3, .dt-sc-chef-single-details p.chef-role { font-size:18px; }
+	   
+	   .dt-sc-menu.type2 { padding-left:0; min-height:290px; }
+	   .dt-sc-menu.type2 figure { position:relative; left:auto; top:auto; width:100%; }
+	   .dt-sc-menu.type2 figure img { margin:0 auto; }
+	   .dt-sc-menu .dt-sc-menu-details { position:relative; }
+	   .dt-sc-menu .dt-sc-menu-details p { padding-right:0; }
+	   .dt-sc-menu .dt-sc-menu-details .dt-sc-menu-price { top:0; }
+	}
+
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (min-width: 320px) and (max-width: 479px) {
+		
+		/** Restaurant **/	
+		.restaurant-booking-form { padding: 0 25px; }		
+		
+		.dt-sc-chef-single-details { padding-top: 180px; }
+		.dt-sc-chef-single-image-overlay { bottom: auto; top: 100%; }
+		
+		.dt-sc-chef-single-image-overlay .dt-sc-chef-single-special { width: 100%; box-sizing: border-box; }
+		.dt-sc-chef-single-image-overlay .dt-sc-sociable { margin: 0; }
+		
+	}
+	
+	
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 319px) {						
+		
+		/** Restaurant Custom Post **/
+		.dt-sc-menu .image-overlay-wrapper { width:100%; padding-top:12px; }
+		.dt-sc-menu .image-overlay .price { margin-top:5px; border:none; padding:0; font-size:12px; }
+		.dt-sc-menu .image-overlay h6 { font-size:12px; text-transform:capitalize; }
+		.dt-sc-menu-sorting > a { margin-bottom:10px; }
+		
+		.dt-sc-chef-single-image-overlay { position:inherit; }
+		.dt-sc-chef-single-image-overlay .dt-sc-sociable { margin-top:0; }
+		
+		.dt-sc-menu .dt-sc-menu-details .dt-sc-menu-price { top:18px; }
+ 		
+		.restaurant-booking-form { padding: 0; }			
+		
+		.dt-sc-restaurant-events-list .dt-sc-restaurant-event-image:after { content: none; }
+		
+	}
+	
+	
+	/*--------------------------------------------------------------
+	3.0 - Skin Colors
+	--------------------------------------------------------------*/
+	
+	.dt-sc-menu .image-overlay .price, .dt-sc-menu .image-overlay h6 a:hover, .dt-sc-menu .menu-categories a:hover, .dt-sc-menu-sorting a:hover, .dt-sc-menu-sorting a.active-sort { color:#da0000; }
+	
+	.dt-sc-menu-sorting a { color:rgba(218,0,0, 0.6); }
+	
+	.dt-sc-menu-sorting a.active-sort, .dt-sc-menu .image-overlay .price { border-color:#da0000; }
+	
+	.dt-sc-menu .menu-categories a:before { background:#da0000; }

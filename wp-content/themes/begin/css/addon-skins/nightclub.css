@@ -1,0 +1,153 @@
+
+/* Table of Content
+==================================================
+	1.0  -  Responsive
+	2.0  -  Skin Color*/
+	
+	/*--------------------------------------------------------------
+	1.0 - Responsive
+	--------------------------------------------------------------*/
+	/*----*****---- << Event >> ----*****----*/
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+
+		
+		/*----*****---- << Nightclub >> ----*****----*/
+		.dt-sc-event-month-thumb { width:37%; }
+		.dt-sc-event-month-detail { width:63%; padding-top:15px; padding-bottom:15px; }
+		
+		.dt-sc-events-isotope .dt-sc-one-third { width:31.6%; }
+		.dt-sc-event-addon > .dt-sc-event-addon-date { width:34%; }
+		.dt-sc-event-addon-date { width:29%; }
+		.dt-sc-event-addon .dt-sc-event-addon-title h2 { width:71%; }
+		.dt-sc-event-addon-detail ul li { display: none; }
+		.dt-sc-event-addon-detail ul li.dt-sc-event-addon-price { display: block; margin-top: 0; }
+		
+		.dt-sc-dj-profile .dt-sc-dj-profile-thumb, .dt-sc-dj-profile .dt-sc-dj-profile-thumb img, .dt-sc-dj-profile .dt-sc-dj-profile-details { width:100%; }
+		
+		.nightclub-contact-form { margin:0; width:100%; }
+		.nightclub-contact-info { width:45%; }
+		.nightclub-working-hours { width:50%; }
+		
+		.nightclub-contact-info, .nightclub-working-hours { margin-bottom:30px; }
+		.nightclub-booking-form input[type="text"], .nightclub-booking-form input[type="tel"], .nightclub-booking-form input[type="date"] { width:63%; }
+		.nightclub-booking-form p label { font-size: 14px; width: 37%; }
+	
+	}
+
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+		
+		/*----*****---- << Nightclub >> ----*****----*/
+		.dt-sc-event-month-thumb { width:47%; }
+		.dt-sc-event-month-detail { width:53%; min-height:226px; }
+		.dt-sc-event-month-detail p { display:none; }
+		
+		.dt-sc-event-addon .dt-sc-event-addon-title h2 { width:68%; padding-left:10px; font-size:23px; }
+		.dt-sc-event-addon-detail { padding:20px; }
+		.dt-sc-event-addon-detail ul li.dt-sc-event-addon-price { margin-top:6px; }
+		
+		.dt-sc-events-isotope .dt-sc-one-third { width:48.3%; }
+		
+		.dt-sc-dj-profile .dt-sc-dj-profile-thumb, .dt-sc-dj-profile .dt-sc-dj-profile-details { width:100%; }
+		
+		.nightclub-contact-info { width: 34%; padding-bottom:35px; }
+		.nightclub-working-hours { width: 52%; }
+		.nightclub-contact-form { width:100%; margin-top:30px; }
+		.nightclub-booking-form input[type="submit"] { margin-right:0; }
+	
+	}
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+ 		
+		/*----*****---- << Nightclub >> ----*****----*/
+		.dt-sc-event-month-thumb { width:100%; }
+		.dt-sc-event-month-thumb img { width:100%; }
+		.dt-sc-event-month-detail { width:100%; }
+		
+		.dt-sc-event-addon > img { width:100%; }
+		.dt-sc-event-addon-detail { height:77%; }
+		.dt-sc-event-addon > .dt-sc-event-addon-date { width:25%; }
+		
+		.dt-sc-dj-profile .dt-sc-dj-profile-thumb, .dt-sc-dj-profile .dt-sc-dj-profile-details { width:100%; }
+		
+		.nightclub-booking-form input[type="submit"] { margin-right:0; }
+		.nightclub-booking-form p label, .nightclub-booking-form input[type="text"], .nightclub-booking-form input[type="tel"], .nightclub-booking-form input[type="date"] { width:100%; }
+		
+		.nightclub-contact-info { padding-bottom:20PX; }
+		.nightclub-contact-info, .nightclub-working-hours, .nightclub-contact-form { width:100%; margin:0px 0px 30px; }
+		
+	}
+	
+
+	/* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+ 	
+		/*----*****---- << Nightclub >> ----*****----*/
+		.dt-sc-event-month-date { padding:18px 7px 20px; }
+		.dt-sc-event-month-time { padding:13px; }
+		.dt-sc-event-month-detail h2 { font-size:28px; }
+		.dt-sc-event-month-thumb .dt-sc-event-month-date-wrapper { font-size:21px; }
+		.dt-sc-event-month-date span { font-size:45px; }
+		
+		.dt-sc-event-addon-date { font-size:22px; }
+		.dt-sc-event-addon > .dt-sc-event-addon-date { width:33%; }
+		.dt-sc-event-addon-date { width:28%; }
+		.dt-sc-event-addon .dt-sc-event-addon-title h2 { width:71%; padding-left: 10px; }
+		.dt-sc-event-addon-detail ul li { display:none; }
+		.dt-sc-event-addon-detail ul li.dt-sc-event-addon-price { display:block; margin-top:0px; }
+	
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 319px) {						
+		
+		/*----*****---- << Nightclub >> ----*****----*/
+		.dt-sc-event-addon-detail ul li.dt-sc-event-addon-price { display:none; }
+		.dt-sc-event-addon-detail ul { margin-bottom:0; }
+		.dt-sc-event-addon-detail > a.buy-now { padding:10px 20px; font-size:20px; }
+		.dt-sc-event-addon > .dt-sc-event-addon-date { width:44%; padding:6px 6px 10px 9px; }
+		.dt-sc-event-addon .dt-sc-event-addon-title { padding:6px 6px 10px 9px; }
+		.dt-sc-event-addon-date { width:40%; }
+		.dt-sc-event-addon-date p { font-size:18px; }
+		.dt-sc-event-addon-date p span { font-size:46px; line-height:39px; }
+		.dt-sc-event-addon .dt-sc-event-addon-title h2 { font-size:20px; width:60%; margin-top:10px; }
+		
+		.dt-sc-event-month-detail h2 { font-size:26px; }
+		.dt-sc-event-month-date { padding:8px 7px 10px; }
+		.dt-sc-event-month-thumb .dt-sc-event-month-date-wrapper { font-size:18px; }
+		.dt-sc-event-month-date { line-height:19px; }
+		.dt-sc-event-month-date span { font-size:27px; line-height:27px; }
+		.dt-sc-event-month-time { padding:5px 13px; font-size:16px; }
+		.dt-sc-event-month-time > span { font-size:19px; }
+		
+		/*----*****---- << Dj Profile >> ----*****----*/
+		.dt-sc-dj-profile .dt-sc-dj-profile-details h2 { font-size:35px; }
+		.dt-sc-dj-profile .dt-sc-dj-profile-details .dt-sc-dj-profile-meta p { text-transform:capitalize; }
+		.dt-sc-dj-profile .dt-sc-dj-profile-details .dt-sc-dj-profile-meta p span { font-size:25px; }
+		
+	}
+	
+	
+	
+	/*--------------------------------------------------------------
+	2.0 - Skin Colors
+	--------------------------------------------------------------*/
+	/*----*****---- << Default >> ----*****----*/
+	.dt-sc-event-addon-detail > a.buy-now { background: #da0000; }
+	.dt-sc-event-addon > .dt-sc-event-addon-date { background-color: rgba(218, 0, 0, 0.9); }
+	
+	.dt-sc-dj-club h2 { border-color: #da0000; }
+	
+	.dt-sc-event-sorting a.active-sort, .dt-sc-event-sorting a:hover, .dt-sc-event-addon-detail ul li span, .dt-sc-event-month:hover h2 a, .dt-sc-dj-profile .dt-sc-dj-profile-details h3, .dt-sc-dj-profile .dt-sc-dj-profile-details .dt-sc-dj-profile-meta p, .dt-sc-dj-club h4 { color: #da0000; }
+	
+	/*----*****---- << Light >> ----*****----*/
+	.dt-sc-event-month-thumb .dt-sc-event-month-date-wrapper { background: #ff2828; }
+	
+	/*----*****---- << Dark >> ----*****----*/
+	.dt-sc-event-month-thumb .dt-sc-event-read-more { background: rgba(197, 0, 0, 0.9); }
+	.dt-sc-event-sorting a, .dt-sc-event-month-meta li { color: #c50000; }

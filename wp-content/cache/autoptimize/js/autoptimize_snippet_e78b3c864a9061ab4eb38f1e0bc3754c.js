@@ -1,0 +1,1 @@
+try{var noCon=jQuery.noConflict();}catch(e){}

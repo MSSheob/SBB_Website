@@ -1,0 +1,38 @@
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+		
+		
+		::i-block-chrome, .dt-sc-contact-details-on-map .dt-sc-map-overlay { display: block; }
+		::i-block-chrome, .menu-with-slanting-splitter #main-menu ul.menu > li::before { right: 0; }
+		
+		::i-block-chrome, .footer-copyright .menu-links li { margin: 0 0 0 28px; }
+
+	}
+	
+	
+	
+	@media all and (min-width:0\0) and (min-resolution:.001dpcm) {
+	
+		#main-menu ul li.menu-item-simple-parent ul, #main-menu ul li.menu-item-simple-parent ul li ul, #main-menu ul li.menu-item-simple-parent ul li ul li ul { z-index: auto; }
+		
+		.vc_row-flex.vc_row { display: table !important; }
+		.vc_row.vc_row-flex.dt-sc-map-overlay { display: block !important; }
+		
+		.dt-sc-contact-details-on-map.hide-overlay .vc_row.vc_row-flex.dt-sc-map-overlay { display: none !important; }
+		
+		.spa-map::before { content: none !important; }
+				
+	}
+	
+	/* IE11 only override */	
+	_:-ms-fullscreen, :root .dt-sc-contact-details-on-map .dt-sc-map-overlay { padding: 64px 0 0; }	
+	
+	
+	/* Firefox override */	
+	@-moz-document url-prefix() {
+		
+		.dt-sc-contact-details-on-map .dt-sc-map-overlay  { padding: 68px 0 0; }	
+		.university-contact-form .button-field i { height: 48px; line-height: 48px; }
+		
+	}

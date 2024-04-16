@@ -1,0 +1,246 @@
+
+/* Table of Content
+==================================================
+	1.0 - Transition
+	2.0 - BMI Calculator
+	3.0 - Default Colors
+	4.0 - DT Responsive
+	5.0 - Skin Colors*/
+
+	/*--------------------------------------------------------------
+	1.0 - Transition
+	--------------------------------------------------------------*/
+	.dt-sc-training-thumb-overlay, .dt-sc-training-details-overlay { -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; -ms-transition:all 0.3s linear; transition:all 0.3s linear; }
+
+
+	/*----*****---- << Single Page >> ----*****----*/
+	.single.single-dt_programs  #primary { padding-bottom:0; }
+	
+	
+	/*--------------------------------------------------------------
+	2.0 - BMI Calculator
+	--------------------------------------------------------------*/
+	.dt-sc-bmi-calculator { width:100%; float:left; clear:both; text-align:center; padding:0px 0px 30px; }
+	.dt-sc-bmi-calculator h5 { padding:20px 30px; text-transform:uppercase; border-bottom:1px solid; margin-bottom:0px; font-weight:bold; }
+	
+	.dt-sc-bmi-calculator form { padding:45px 30px 30px; width:100%; display:inline-block; }
+	
+	.dt-sc-bmi-calculator form label { text-align:left; float:left; width:100%; font-size:14px; text-transform:uppercase; margin:0px 0px 10px; }
+	.dt-sc-bmi-calculator form label span { margin-left:5px; }
+	.dt-sc-bmi-calculator form .group-textbox input[type="text"] { width:50%; float:left; margin:0px -1px 0px 0px; }
+	.dt-sc-bmi-calculator form .group-textbox { padding-left:0px; position:relative; }
+	.dt-sc-bmi-calculator form .group-textbox:before { content:""; position:absolute; left:0px; right:0px; margin:auto; bottom:0px; width:1px; height:47px; }
+	.dt-sc-bmi-calculator form .column { padding-left:10px; }
+	
+	.dt-sc-bmi-calculator form input[type="submit"], .dt-sc-bmi-calculator form input[type="reset"] { float:none; display:inline-block; border-radius:0px; padding:16px 20px 15px; margin:40px 0px 0px; }
+	.dt-sc-bmi-calculator form input[type="reset"] { padding:14px 20px 13px; margin-left:15px; }
+	.dt-sc-bmi-result { float:left; width:100%; margin:40px 0px 0px; text-align:center; }
+	.dt-sc-bmi-calculator .dt-sc-bmi-result .column { padding-left:0px; }
+	.dt-sc-bmi-calculator .dt-sc-bmi-result label { display:inline-block; float:none; text-align:right; font-size:18px; text-transform:none; line-height:42px; margin:0px; }
+	.dt-sc-bmi-calculator .dt-sc-bmi-result input[type="text"] { background:none; border:none; font-size:30px; font-weight:900; padding:0px; text-align:center; }
+	.dt-sc-bmi-calculator .dt-sc-bmi-result a { font-size:18px; line-height:36px; }
+	.dt-sc-bmi-calculator .dt-sc-bmi-result a span { display:inline-block; margin:0px 0px 0px 5px; position:relative; top:2px; }
+	
+	.tblbmi { display:none; }
+	
+	.dt-sc-dark-bg .dt-sc-bmi-calculator form input[type="text"], .dt-sc-dark-bg .dt-sc-bmi-calculator form select { border:none; }
+	.dt-sc-dark-bg .dt-sc-bmi-calculator form .selection-box:after { background:none; border:none; }
+	.dt-sc-dark-bg .dt-sc-bmi-calculator .dt-sc-bmi-result input[type="text"] { background:none; }	
+	
+
+	/*--------------------------------------------------------------
+	3.0 - Default Colors
+	--------------------------------------------------------------*/
+	
+	.dt-sc-training-details-overlay h6, .dt-sc-training-details-overlay .price, .dt-sc-training-details .dt-sc-training-details-overlay h6 { color:#ffffff; }
+	
+	.dt-sc-training-details { background:#222222; }	
+	.dt-sc-training-thumb-overlay { background:rgba(0, 0, 0, 0.8); }
+	
+	/*----*****---- << BMI >> ----*****----*/
+	.dt-sc-dark-bg .dt-sc-bmi-calculator .dt-sc-bmi-result a:hover, .dt-sc-dark-bg .dt-sc-bmi-calculator form label, .dt-sc-dark-bg .dt-sc-bmi-calculator .dt-sc-bmi-result input[type="text"] { color:#ffffff; }
+	.dt-sc-bmi-calculator .dt-sc-bmi-result input[type="text"], .dt-sc-bmi-calculator .dt-sc-bmi-result a:hover { color:#000000; }
+	.dt-sc-dark-bg .dt-sc-bmi-calculator form label span { color:rgba(255, 255, 255, 0.4); }
+	.dt-sc-bmi-calculator form label span { color:rgba(0, 0, 0, 0.3); }
+	
+	.dt-sc-bmi-calculator h5 { border-color:rgba(0, 0, 0, 0.15); }
+	.dt-sc-dark-bg .dt-sc-bmi-calculator form .selection-box:before { border-top-color:rgba(255, 255, 255, 0.1); }
+	.dt-sc-dark-bg .dt-sc-bmi-calculator h5 { border-color:rgba(255, 255, 255, 0.1); }
+	
+	.dt-sc-bmi-calculator { background:rgba(0, 0, 0, 0.05); }
+	.dt-sc-dark-bg .dt-sc-bmi-calculator { background:#222222; }
+	.dt-sc-bmi-calculator form .group-textbox:before { background:rgba(255, 255, 255, 0.1); }
+	.dt-sc-dark-bg .dt-sc-bmi-calculator form input[type="text"], .dt-sc-dark-bg .dt-sc-bmi-calculator form select { background:#1d1d1d; }
+	
+	
+		
+	/*--------------------------------------------------------------
+	4.0 - DT Responsive
+	--------------------------------------------------------------*/	
+	
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+		
+		/** Fitness Custom Post **/
+		.dt-sc-fitness-program.dt-sc-one-half { width:48.7%; }
+		.dt-sc-fitness-program .dt-sc-fitness-program-meta p { padding:0 8px; }
+		.dt-sc-fitness-program .dt-sc-fitness-program-price { padding:15px 15px 15px 36px; font-size:22px; }
+		
+		.dt-sc-fitness-program-nav li a { font-size:15px; text-transform:capitalize; }
+		.wpb_column.dt-sc-one-fifth.dt-sc-custom-prog-price { width:33.3%; margin-bottom:20px; padding-left:0; }
+		
+		.dt-sc-process-steps .dt-sc-process-details h5 { font-size:14px; }
+		.dt-sc-process-steps .dt-sc-process-details { font-size: 13px; min-height: 130px; }
+		
+		.dt-sc-training-thumb, .dt-sc-training-thumb > img, .dt-sc-training-details { width:100%; }
+		
+		.dt-sc-fitness-diet-result h2 { font-size:23px; margin-top:6px; margin-bottom:0; }
+		.dt-sc-fitness-program-short-details-wrapper { min-height:370px; }
+		
+		/** Fitness **/
+		.dt-sc-trainers .dt-sc-trainers-title { padding-top:15px; padding-bottom:15px; }
+		.dt-sc-trainers .dt-sc-trainers-meta { padding:0 20px; }
+		.dt-sc-trainers .dt-sc-trainers-meta h6 { margin-top:18px; }
+		.dt-sc-trainers .dt-sc-sociable { left:-13px; right:auto; }
+		
+		.dt-sc-trainers .dt-sc-trainers-thumb { width:51%; }
+		.dt-sc-trainers .dt-sc-trainers-details { width:49%; }
+		
+		/** BMI Calculator **/
+		.dt-sc-bmi-calculator form label { font-size: 12px; }
+		.dt-sc-bmi-calculator .dt-sc-bmi-result .column { width: 100%; }
+		.dt-sc-bmi-calculator .dt-sc-bmi-result label { text-align: center; }
+		
+	}
+	
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+ 		
+ 		/** Fitness Custom Post **/
+		.dt-sc-fitness-program.dt-sc-one-half { width:48.3%; }
+		.dt-sc-fitness-program figure figcaption h4 { font-size:16px; }
+		
+		.dt-sc-process-steps .dt-sc-process-details h5 { font-size:14px; }
+		.dt-sc-process-steps .dt-sc-process-details { font-size: 13px; min-height: 130px; }
+		
+		.dt-sc-prog-full.wpb_column { width:100%; }
+		.dt-sc-prog-full.wpb_column .dt-sc-fitness-program-nav { margin-bottom:20px; }
+		.dt-sc-fitness-program-details .dt-sc-custom-prog-price { width:33%; padding-left:0; margin-bottom:15px; padding-right:15px; }
+		
+		.dt-sc-fitness-program .dt-sc-fitness-program-price { width:100%; position: inherit; box-sizing: border-box; display: inline-block; text-align:center; }
+		.dt-sc-fitness-program .dt-sc-fitness-program-price::before { transform:none; right:0; }
+		
+		.dt-sc-training-thumb, .dt-sc-training-thumb > img, .dt-sc-training-details { width:100%; }
+		
+		.dt-sc-fitness-diet-result h2 { text-transform:capitalize; font-size:25px; }
+		.fitness-contact-boxes .wpb_text_column:nth-child(3) { padding-top:32px; }
+		
+		.dt-sc-trainers .dt-sc-trainers-thumb, .dt-sc-trainers .dt-sc-trainers-details { width:100%; }
+		.dt-sc-trainers .dt-sc-trainers-thumb { text-align:center; }
+		.dt-sc-trainers .dt-sc-trainers-thumb img { margin:30px auto 0; }
+		
+		/** BMI Calculator **/
+ 		.dt-sc-bmi-calculator form label { font-size: 10px; }
+		.dt-sc-bmi-calculator .dt-sc-bmi-result .column { width: 100%; }
+		.dt-sc-bmi-calculator .dt-sc-bmi-result label { text-align: center; }
+	
+	}
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+ 		
+ 		
+		/** Fitness Custom Post **/
+		.dt-sc-workouts { margin-bottom:30px; }
+		
+		.dt-sc-fitness-program-details .dt-sc-custom-prog-price .vc_column-inner  { padding-left:0; padding-right:0; }
+		.dt-sc-process-steps:before, .dt-sc-process-steps.with-right-border:after, .dt-sc-process-steps.with-left-border:after { content:none; }
+		.dt-sc-process-steps .dt-sc-process-thumb { margin-bottom:10px; }
+		.dt-sc-fitness-program-short-details-wrapper { min-height:430px; }
+		.dt-sc-fitness-program-short-details-wrapper .dt-sc-fitness-program-short-details { width:100%; right:0; top:100px; }
+		.dt-sc-fitness-program-short-details h2 { font-size:21px; line-height:29px; }
+		.dt-sc-fitness-program-reviews .wpb_column { min-height:100px; }
+		
+		.dt-sc-fitness-program .dt-sc-fitness-program-price { width:100%; position: inherit; box-sizing: border-box; display: inline-block; text-align:center; padding-left:20px; }
+		.dt-sc-fitness-program .dt-sc-fitness-program-price::before { transform:none; right:0; }
+		
+		.dt-sc-training-thumb, .dt-sc-training-thumb > img, .dt-sc-training-details { width:100%; }
+		.dt-sc-fitness-diet-result p { width: 30%; margin:1px 0 0; }
+		.dt-sc-fitness-diet-result h2 { width: 40%; }
+		.dt-sc-fitness-diet { border:1px solid rgba(0, 0, 0, 0.1); }
+		.dt-sc-fitness-diet-container { border-left:0; }
+		
+ 		.dt-sc-trainers .dt-sc-trainers-thumb, .dt-sc-trainers .dt-sc-trainers-details { width:100%; }
+		.dt-sc-trainers .dt-sc-trainers-thumb { text-align:center; }
+		.dt-sc-trainers .dt-sc-trainers-thumb img { margin:30px auto 0; }
+		.dt-sc-trainers .dt-sc-trainers-details { padding-bottom:30px; }
+		
+		
+		/** BMI Calculator **/
+		.dt-sc-bmi-calculator .dt-sc-bmi-result label { text-align: center; }	
+		
+	}
+	
+	
+	/* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+		
+	   /** Fitness Custom Post **/
+	   .dt-sc-workouts { text-align:center; }
+	   .dt-sc-workouts .dt-sc-workouts-thumb { margin-bottom:10px; margin-right:0; }
+	   .dt-sc-workouts .dt-sc-workouts-thumb, .dt-sc-workouts .dt-sc-workouts-details { width:100%; }
+	   .dt-sc-workouts .dt-sc-workouts-thumb img { display:inline-block; }
+	   
+	   .dt-sc-fitness-program .dt-sc-fitness-program-meta p { padding: 0 10px; }
+	   .dt-sc-fitness-program figure figcaption { transform:none; right:0; position:inherit; padding:20px 20px 15px; }
+	   .dt-sc-fitness-program figure figcaption h4 { transform:none; font-size:15px; text-align:center; }
+	   .dt-sc-fitness-program .dt-sc-fitness-program-price { font-size:21px; }
+	   
+	   .dt-sc-workouts .dt-sc-workouts-details a { padding:13px 63px 12px 20px; font-size:13px; margin:15px 20px 0; }
+	   .dt-sc-fitness-program-sorting a { width:100%; background-color:rgba(0,0,0,0.04); margin-bottom:1px; font-size:15px; padding-top:7px; padding-bottom:7px;  }
+	   .dt-sc-fitness-program-sorting a:before { content:none; }
+	   
+	   .dt-sc-fitness-diet-result h2, .dt-sc-fitness-diet-result p { width:100%; }
+	   .dt-sc-fitness-diet-result h2 { margin-bottom:0; }
+	   .dt-sc-trainers .dt-sc-trainers-thumb img { margin-top:5px; }
+	   
+	   /** BMI Calculator **/
+	   .dt-sc-bmi-calculator form input[type="reset"] { margin-left: 0; }
+	}
+	
+	
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 319px) {
+		/** Fitness **/
+		.dt-sc-trainers .dt-sc-trainers-thumb img { margin-top:0px; }
+		
+		/** Fitness Program **/
+		.dt-sc-fitness-program-short-details-wrapper { min-height:520px; }
+		.dt-sc-fitness-program-nav li a { font-size:12px; }
+		
+		.dt-sc-fitness-program-meta { text-align:center; }
+		.dt-sc-fitness-program .dt-sc-fitness-program-meta p { float:none; display:inline-block; }
+		
+		.dt-sc-workouts .dt-sc-workouts-details a { margin-left:0; margin-right:0; }
+	}
+	
+	
+						
+		
+	/*--------------------------------------------------------------
+	5.0 - Skin Colors
+	--------------------------------------------------------------*/
+	.dt-sc-workouts .dt-sc-workouts-details a span, .dt-sc-workouts .dt-sc-workouts-details a:hover,
+	 .dt-sc-fitness-program figure figcaption, .dt-sc-fitness-program-nav li a:before, .dt-sc-fitness-program-nav li.current_page_item a, .dt-sc-fitness-program-nav li a:after, .dt-sc-fitness-program-details h4:before, .dt-sc-fitness-program-details .dt-sc-pr-tb-col .dt-sc-buy-now a,
+	.dt-bmi-inner-content tbody th, .dt-bmi-inner-content tbody tr:nth-child(2n+1) th { background: #da0000; }
+	
+	.dt-sc-process-steps .dt-sc-process-thumb-overlay { background: rgba(218, 0, 0, 0.7); }
+		  
+	.dt-sc-fitness-program-short-details-wrapper .dt-sc-fitness-program-short-details { background: rgba(218, 0, 0, 0.9); }
+	
+	.dt-sc-process-steps .dt-sc-process-thumb img { border-color: #da0000; }   
+		
+	.dt-sc-workouts .dt-sc-workouts-details h4, .dt-sc-fitness-program-sorting a:hover, .dt-sc-fitness-program-sorting a.active-sort, .dt-sc-fitness-program .dt-sc-fitness-program-price sup, .dt-sc-fitness-program .dt-sc-fitness-program-price sub, .dt-sc-fitness-program-nav li a:hover, .dt-sc-fitness-program-details .dt-sc-pr-tb-col .dt-sc-price h6 sup, .dt-sc-fitness-diet-result p, .dt-sc-fitness-diet:hover .dt-sc-fitness-diet-details h5, table.fit-Diet-table th strong, .dt-sc-fitness-diet:hover .dt-sc-fitness-diet-details h5, table.fit-Diet-table th strong { color: #da0000; }

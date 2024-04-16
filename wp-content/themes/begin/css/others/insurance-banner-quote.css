@@ -1,0 +1,15 @@
+
+
+/* Insurance Banner Quote Form */
+.banner-quote-form { background: #fff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); box-sizing: border-box; padding: 26px;  width: 370px; border-radius:2px; }
+.banner-quote-form .b_button { text-align: center; }
+.banner-quote-form input[type="submit"] { float:none; }
+.banner-quote-form h2 { font-size: 20px; margin-bottom: 0; text-transform: uppercase; font-weight: 400; letter-spacing: 0; }
+form.banner-quote-form, form.banner-quote-form input, form.banner-quote-form select, .banner-quote-form.wpcf7-form div.wpcf7-validation-errors, .banner-quote-form.wpcf7-form div.wpcf7-mail-sent-ok { box-sizing: border-box !important; }
+.banner-quote-form span, .banner-quote-form .wpcf7-response-output { white-space: pre-line; }
+.banner-quote-form .wpcf7-list-item-label { color: #000; font-size: 12px; line-height: 22px; }
+.banner-quote-form input[type="text"], .banner-quote-form input[type="email"], .banner-quote-form input[type="tel"], .banner-quote-form select { background: #fafbfc; border-color:#eff1f3; border-radius: 2px; }
+.banner-quote-form .selection-box:after { border-left-color:#eff1f3; border-right-color:#eff1f3; }
+.banner-quote-form input[type="text"], .banner-quote-form input[type="email"], .banner-quote-form input[type="tel"] { margin-bottom:18px; }
+
+.wpcf7-form.banner-quote-form h2 + p { font-size: 12px; margin-bottom: 20px; }

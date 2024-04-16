@@ -1,0 +1,115 @@
+<wpml-config>
+
+    <custom-fields>
+		<custom-field action="copy">_dt_post_settings</custom-field>
+		<custom-field action="copy">_portfolio_settings</custom-field>
+		<custom-field action="copy">_tpl_default_settings</custom-field>
+		<custom-field action="copy">_custom_settings</custom-field>
+    </custom-fields>
+
+    <custom-types>
+        <custom-type translate="1">dt_portfolios</custom-type>
+        <custom-type translate="1">dt_doctors</custom-type>
+        <custom-type translate="1">dt_procedure</custom-type>
+        <custom-type translate="1">dt_customers</custom-type>
+        <custom-type translate="1">dt_services</custom-type>
+        <custom-type translate="1">dt_staffs</custom-type>
+    </custom-types>
+
+    <taxonomies>
+        <taxonomy translate="1">portfolio_entries</taxonomy>
+        <taxonomy translate="1">doctor_departments</taxonomy>
+        <taxonomy translate="1">procedure_entries</taxonomy>
+		<taxonomy translate="0">dt_dummy</taxonomy>
+    </taxonomies>
+
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>    
+        <key name="icl_language_switcher_sidebar">0</key>  
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>    
+    </language-switcher-settings>
+    <admin-texts>
+        <key name="_cs_options">
+			<key name="post-archives-readmore"/>
+			<key name="top-hook"/>
+			<key name="content-before-hook"/>
+			<key name="content-after-hook"/>
+			<key name="bottom-hook"/>
+			<key name="cookie-consent-msg"/>
+            <key name="privacy-commentform-msg"/>
+            <key name="privacy-subscribeform-msg"/>
+            <key name="privacy-loginform-msg"/>
+            <key name="cookie-bar-buttons"/>
+            <key name="custom-model-heading"/>
+            <key name="custom-model-tabs"/>
+			<key name="single-portfolio-slug"/>
+			<key name="portfolio-category-slug"/>
+			<key name="single-doctor-slug"/>
+			<key name="doctor-department-slug"/>
+			<key name="singular-doctor-name"/>
+			<key name="plural-doctor-name"/>			
+			<key name="singular-doctor-tax-name"/>
+			<key name="plural-doctor-tax-name"/>
+			<key name="single-procedure-slug"/>
+			<key name="procedure-category-slug"/>
+			<key name="singular-procedure-name"/>
+			<key name="plural-procedure-name"/>
+			<key name="singular-procedure-tax-name"/>
+			<key name="plural-procedure-tax-name"/>
+			<key name="notification_sender_name"/>
+			<key name="notification_sender_email"/>
+			<key name="appointment_notification_to_admin_subject"/>
+			<key name="appointment_notification_to_admin_message"/>
+			<key name="modified_appointment_notification_to_admin_subject"/>
+			<key name="modified_appointment_notification_to_admin_message"/>
+			<key name="deleted_appointment_notification_to_admin_subject"/>
+			<key name="deleted_appointment_notification_to_admin_message"/>
+			<key name="appointment_notification_to_staff_subject"/>
+			<key name="appointment_notification_to_staff_message"/>
+			<key name="modified_appointment_notification_to_staff_subject"/>
+			<key name="modified_appointment_notification_to_staff_message"/>
+			<key name="deleted_appointment_notification_to_staff_subject"/>
+			<key name="deleted_appointment_notification_to_staff_message"/>
+			<key name="agenda_to_staff_subject"/>
+			<key name="agenda_to_staff_message"/>
+			<key name="appointment_notification_to_client_subject"/>
+			<key name="appointment_notification_to_client_message"/>
+			<key name="modified_appointment_notification_to_client_subject"/>
+			<key name="modified_appointment_notification_to_client_message"/>
+			<key name="deleted_appointment_notification_to_client_subject"/>
+			<key name="deleted_appointment_notification_to_client_message"/>
+			<key name="success_message"/>
+			<key name="error_message"/>
+        </key>
+    </admin-texts>
+</wpml-config>

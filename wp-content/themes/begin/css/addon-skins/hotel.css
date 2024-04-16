@@ -1,0 +1,110 @@
+
+
+/* Table of Content
+==================================================
+	1.0 - DT Responsive
+	2.0 - Skin Colors*/
+
+	/*----*****---- << Single Page >> ----*****----*/
+	.single.single-dt_rooms #primary { padding-bottom: 0; }
+	
+	/*--------------------------------------------------------------
+	1.0 - DT Responsive
+	--------------------------------------------------------------*/	
+	
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+		
+		/*----*****---- << Hotel Custom Post >> ----*****----*/
+		.dt-sc-rooms-container .dt-sc-one-third { width:31.6%; }
+		.dt-sc-hotel-room .dt-sc-hotel-room-buttons .dt-sc-button { font-size:16px; margin-right:15px; }
+		.dt-sc-hotel-room-sorting a { margin-bottom:1px; }
+		
+		.dt-sc-hotel-room.dt-sc-hotel-room-list-view .dt-sc-hotel-room-buttons .dt-sc-button { font-size:19px; }
+	
+	}
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+		
+		/*----*****---- << Hotel Custom Post >> ----*****----*/
+		.dt-sc-rooms-container .dt-sc-one-third { width:31.1%; }
+		.dt-sc-hotel-room .dt-sc-hotel-room-details .dt-sc-hotel-room-content h4 { font-size:19px; }
+		.dt-sc-hotel-room .dt-sc-hotel-room-buttons .dt-sc-button { font-size: 13px; margin: 0 10px 0 0; padding: 10px 19px; }
+		.dt-sc-hotel-room .dt-sc-hotel-room-buttons { font-size:14px; }
+		.dt-sc-hotel-room .dt-sc-hotel-room-thumb-overlay p .price { font-size:21px; }
+		.dt-sc-hotel-room-sorting a { margin-bottom:1px; }
+		
+		.dt-sc-hotel-room.dt-sc-hotel-room-list-view .dt-sc-hotel-room-buttons .dt-sc-button { font-size:16px; }
+		.dt-sc-hotel-room-single-metadata .price-wrapper p .price { font-size:35px; }
+	
+		.dt-sc-hotel-room-single-metadata { padding: 0; }
+		
+		.dt-sc-hotel-room-single-metadata form label, 
+		.dt-sc-hotel-room-single-metadata form input[type="text"], 
+		.dt-sc-hotel-room-single-metadata form input[type="email"] { width: 100%; }
+		
+		.dt-sc-hotel-room-single-metadata form p.room-date:before { top: auto; bottom: 0; }
+		
+		.dt-sc-hotel-room-single-metadata form input[type="submit"] { padding: 16px 15px 15px; width: 100%; box-sizing: border-box; }
+	
+	}
+	
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+ 		
+ 		/*----*****---- << Hotel Custom Post >> ----*****----*/
+		.dt-sc-hotel-room-sorting a { margin-bottom:1px; }
+		.dt-sc-hotel-room.dt-sc-hotel-room-list-view .dt-sc-hotel-room-thumb, .dt-sc-hotel-room.dt-sc-hotel-room-list-view .dt-sc-hotel-room-details { width:100%; }
+		.dt-sc-hotel-room.dt-sc-hotel-room-list-view .dt-sc-hotel-room-details { padding-left:0; margin-top:20px; }
+		.dt-sc-hotel-room.dt-sc-hotel-room-list-view .dt-sc-hotel-room-buttons .dt-sc-button { font-size:16px; }
+		
+		.dt-sc-hotel-room.dt-sc-hotel-room-list-view .dt-sc-hotel-room-details .dt-sc-hotel-room-content { width:100%; padding-left:0; }
+		.dt-sc-hotel-room.dt-sc-hotel-room-list-view .dt-sc-hotel-room-details ul { width:100%; margin-top:10px; }
+		.dt-sc-hotel-room .dt-sc-hotel-room-thumb img { margin: 0 auto; width:100%; }
+		
+	}
+	
+	
+	/* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+		
+		/*----*****---- << Hotel Custom Post >> ----*****----*/
+		.dt-sc-hotel-room .dt-sc-hotel-room-buttons { text-align:center; }
+		.dt-sc-hotel-room .dt-sc-hotel-room-buttons a { display:inline-block; }
+		.dt-sc-hotel-room .dt-sc-hotel-room-buttons .dt-sc-button { width:60%; margin-bottom:10px; margin-right:0; }
+		.dt-sc-hotel-room .dt-sc-hotel-room-thumb-overlay p .price { font-size:20px; }
+	   
+	   
+		.dt-sc-hotel-room-single-metadata { padding: 0; }	
+		.dt-sc-hotel-room-single-metadata form label, 
+		.dt-sc-hotel-room-single-metadata form input[type="text"], 
+		.dt-sc-hotel-room-single-metadata form input[type="email"] { width: 100%; }
+		
+		.dt-sc-hotel-room-single-metadata form p.room-date:before { top: auto; bottom: 0; }
+		
+		.dt-sc-hotel-room-single-metadata form input[type="submit"] { padding: 16px 15px 15px; width: 100%; box-sizing: border-box; }
+	}
+	
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 319px) {						
+		
+		/*----*****---- << Hotel >> ----*****----*/
+		.dt-sc-hotel-room-sorting a { font-size:14px; border-left:1px solid rgba(0, 0, 0, 0.06); }
+		.dt-sc-button.dt-sc-left-margin { margin-left:0; }
+	}
+	
+	
+	
+	/*--------------------------------------------------------------
+	2.0 - Skin Colors
+	--------------------------------------------------------------*/	
+	.dt-sc-hotel-room-sorting a:before, .dt-sc-hotel-room-sorting a.active-sort:before, .dt-sc-hotel-room-single-metadata form input[type="submit"]:hover, .dt-sc-hotel-room-single-metadata form p:before { background: #da0000; }
+	
+	.dt-sc-hotel-room-single-metadata form, .dt-sc-hotel-room-single-metadata form input[type="submit"] { border-color: #da0000; }
+	.dt-sc-hotel-room .dt-sc-hotel-room-thumb { border-top-color: #da0000; }
+	
+	.dt-sc-hotel-room .dt-sc-hotel-room-thumb-overlay p .price, .dt-sc-hotel-room .dt-sc-hotel-room-buttons a:hover, .dt-sc-hotel-room .dt-sc-hotel-room-details .dt-sc-hotel-room-content h4, .dt-sc-hotel-room-single-details h3, .dt-sc-hotel-room-single-details ul li:before, .dt-sc-hotel-room-single-metadata .price-wrapper p .price, .dt-sc-hotel-room-single-metadata ul.dt-sc-sociable li a:hover, .dt-sc-hotel-room-single-metadata ul li, .dt-sc-hotel-room .dt-sc-hotel-room-details ul li { color: #da0000; }

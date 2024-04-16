@@ -1,0 +1,20 @@
+.edit-post-sidebar .components-panel__body-toggle.components-button:hover, .edit-post-sidebar .edit-post-sidebar__panel-tab:hover { background: none; }
+.edit-post-sidebar .components-panel .chosen-container { width: 100% !important; }
+.editor-post-title__block, .editor-default-block-appender, .editor-block-list__block { max-width: 1230px; }
+.editor-post-title__block { padding: 5px 15px; }
+em { font-style: italic; }
+.editor-styles-wrapper .wp-block-cover .wp-block-cover-text { color: #fff; font-size: 2em; line-height: 1.25; margin-bottom: 0; max-width: 610px; padding: 14px; text-align: center; z-index: 1; }
+div.editor-styles-wrapper .editor-post-title__block .editor-post-title__input { font-size: 30px; font-weight: 500; letter-spacing: 1px; margin: 0; padding: 0; text-transform: capitalize; word-wrap: break-word; }
+.wp-block-verse pre, .wp-block-preformatted pre { background: #fcfcfc; border: 1px solid #eaeaea; color: #222222; padding: 14px; }
+.wp-block-table td, .wp-block-table th { border: 1px solid #eaeaea; padding: 1.3em 1.5em; font-size: 16px; text-align: left; }
+.wp-block-table .wp-block-table__cell-content { padding: 0; }
+.editor-styles-wrapper .wp-block-quote.is-large p, .editor-styles-wrapper .wp-block-quote.is-style-large p { font-size: 24px; line-height: 1.6; }
+blockquote.wp-block-quote, .wp-block-pullquote blockquote { border-left: 4px solid #707070; margin: 0; padding: 0 2%; }
+blockquote.wp-block-quote.is-large, blockquote.wp-block-quote.is-style-large { border-left: 4px solid #707070; }
+div.editor-styles-wrapper ul { list-style-type: square; list-style-position: inside; }
+hr.wp-block-separator:not(.is-style-wide):not(.is-style-dots) { clear: both; }
+.wp-block-button.alignleft, .wp-block-pullquote.alignleft, .wp-block-image .alignleft, .wp-block-cover.alignleft { margin-right: 2em; }
+.wp-block-button.alignright, .wp-block-pullquote.alignright, .wp-block-image .alignright, .wp-block-cover.alignright { margin-left: 2em; }
+.wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption { font-size: 16px; padding: 30px 10px 25px; }
+.editor-styles-wrapper a:hover, .editor-styles-wrapper a:focus, .editor-styles-wrapper a:active { color: #999; }
+.wp-block[data-align="wide"] { max-width: 1230px; }

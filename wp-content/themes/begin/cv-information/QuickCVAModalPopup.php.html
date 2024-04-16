@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of Auto Loading Bootstrap Modal on Page Load</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+</head>
+<body>
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">SkillBeyondBoundaries.com</h4>
+				<h6 class="modal-title">Quick CVA: Input Sheet </h6>
+            </div>
+            <div class="modal-body">
+				   <table id="example2" class="table table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th>Planned recruitments for a year through third parties (number of hires)</th>
+                    <th>Planned recruitments for a year through employee referrals (number of hires)</th>
+                    <th>Average Cost-To-Company (CTC) per hire per annum in reporting currency</th>
+                    <th>Average recruitment charges (as % of CTC)</th>
+                    <th>Average referral fees paid to employees per hire in reporting currency</th>
+                    <th>Annual average bench (from within the total employees) in numbers</th>
+					 <th>Average overheads (equipment, rent, utilities etc.) per employee in reporting currency</th>
+                    <th>Your desired mark-up (%) on employees that you would lend out</th>
+                    <th>Current Cost Of Above In Reporting Currency</th>
+                 
+                  </tr>
+
+      <!--fetch data from database-->
+         $sql = "SELECT * FROM  `quick_cv` ORDER BY  id DESC LIMIT 1" ;
+       <?php 
+        //$sql_1 = "SELECT  attachment_save_path FROM `attachments`";
+        $result = mysql_query($sql,$conn);         
+        //echo $result;
+        ?>
+        <?php
+        
+          while ($row = mysql_fetch_assoc($result)) 
+          {          
+            ?>         
+             
+                <tr>
+				 
+                 // <td><?php echo $row['company_name']; ?></td>
+                 // <td><?php echo $row['industry']; ?></td>
+                 // <td><?php echo $row['email']; ?></td>
+                  <td><?php echo $row['recruitments_third_parties']; ?></td>
+                  <td><?php echo $row['QuickCVA_planned_recruitments']; ?></td>
+				   <td><?php echo $row['QuickCVA_Average_cost']; ?></td>
+                  <td><?php echo $row['QuickCVA_Average_recruitment']; ?></td>
+                  <td><?php echo $row['QuickCVA_average_referral_fees_paid']; ?></td>
+                     <td><?php echo $row['QuickCVA_Annual_bench_employees']; ?></td>
+					 <td><?php echo $row['QuickCVA_Average_overheads']; ?></td>
+					 <td><?php echo $row['QuickCVA_desired_markup']; ?></td>
+					 <td><?php echo $row['QuickCVA_Annual_bench']; ?></td>
+                </tr>
+       <?php
+          }  
+        ?>
+        <div class="control-sidebar-bg"></div>
+    </thead>
+              </section>
+             </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

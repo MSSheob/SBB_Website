@@ -1,0 +1,84 @@
+
+/* CSS Document */
+
+/* Table of Content
+==================================================
+	1.0  -  DT Responsive
+	2.0  -  Skin Colors*/
+	
+	
+	/*--------------------------------------------------------------
+	1.0 - DT Responsive
+	--------------------------------------------------------------*/
+	
+	/* Note: Design for a width of 960px */	
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+		
+		/*----*****---- << Attorney Custom Post >> ----*****----*/
+		.dt-sc-attorney-sorting a { float:none; display:inline-block; margin-bottom:1px; }
+		.dt-sc-attorney-sorting { float:none; display:block; width:69%; margin:0 auto; text-align:center; }
+		
+	}
+	
+	
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:991px) {
+ 		
+ 		/*----*****---- << Attorney Custom Post >> ----*****----*/
+		.dt-sc-attorney-sorting a { float:none; display:inline-block; margin-bottom:1px; }
+		.dt-sc-attorney-sorting { float:none; display:block; width:100%; margin:0 auto; text-align:center; }
+		
+		.dt-sc-attorney.dt-sc-attorneys-single .container > .wpb_column { width:100%; }
+		.dt-sc-attorneys-single .dt-sc-team { margin-bottom:30px; }
+		
+	}
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+ 		 		
+		/*----*****---- << Attorney Custom Post >> ----*****----*/
+		.dt-sc-attorney .dt-sc-team, .dt-sc-attorney .dt-sc-attorney-details { width:100%; }
+		.dt-sc-attorney .dt-sc-attorney-details { padding-left:0; }
+		
+		.dt-sc-attorney-sorting a { float:none; display:inline-block; margin-bottom:1px; }
+		.dt-sc-attorney-sorting { float:none; display:block; width:100%; margin:0 auto; text-align:center; }
+		
+		.extend-bg-fullwidth-left::after, .extend-bg-fullwidth-right::after { background-color:transparent; }
+		
+	}
+	
+		
+	/* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+		
+		.dt-sc-attorney-location li, .dt-sc-attorney-location li > a { width:100%; }
+		.dt-sc-attorney-location li > a {  text-align:center; }
+		
+	}
+	
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 319px) {
+						
+		.dt-sc-attorney-sorting a { font-size:13px; }
+		
+		.dt-sc-attorney-location-overlay { width:200px; }
+		
+	}
+	
+
+
+	/*--------------------------------------------------------------
+	2.0 - Skin Colors
+	--------------------------------------------------------------*/
+	.dt-sc-attorney-sorting a.active-sort, .dt-sc-attorneys-single h5.dt-sc-attorney-role:before, .dt-sc-attorneys-single h5.dt-sc-attorney-role:after, .dt-sc-attorney .dt-sc-attorney-details h5:before, .dt-sc-attorney .dt-sc-attorney-details h5:after, .dt-sc-practices-list li a:hover, .dt-sc-attorney-location-overlay p:last-child a { background: #da0000; }
+	
+	.dt-sc-attorney-sorting a:hover, .dt-sc-attorneys-single h6, .dt-sc-attorney .dt-sc-attorney-details h6, .dt-sc-attorneys-single a.read-more:hover, .dt-sc-attorney .dt-sc-attorney-details a.read-more:hover, .dt-sc-attorney-location-overlay p a:hover, .dt-sc-loading:before,
+	.dt-sc-practices-list li:before { color: #da0000; }
+	
+	.dt-sc-attorney-location-overlay:before { border-top-color: #da0000; }
+	
+	
+	.dt-sc-attorney-sorting { border-color:#da0000; }
